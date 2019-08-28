@@ -24,5 +24,5 @@ public class USAddressTester {
   		} catch (FileNotFoundException e) {
   			e.printStackTrace();
   }
-
+  }
 }

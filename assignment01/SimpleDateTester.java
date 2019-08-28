@@ -3,7 +3,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.PrintWriter;
-public class ComputerOwnerTester {
+public class SimpleDateTester {
   public static void main(String[] args) {
     try(var output =new PrintWriter(new FileOutputStream(
 			    new File("output.txt"), true /* true means append to file */))) {
@@ -30,8 +30,8 @@ public class ComputerOwnerTester {
       output.println(test1.before(test3)); //true
       output.println(test1.before(test4)); //false
       output.println(test1.before(test5)); //false
-    }
-  } catch (FileNotFoundException e) {
-    e.printStackTrace();
-  }
+    } catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
+	}
 }
