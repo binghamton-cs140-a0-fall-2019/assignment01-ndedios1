@@ -29,6 +29,18 @@ public class ComputerTester {
     //Copy all your lines above, add an extra "2" to every variable name
 		// and replace every System.out.print or System.out.println
 		// by output.print or output.println
+			//more than terrabyte, SSD
+			Computer test12 = new Computer("HP", "Intel Core 7", 16,1200, true, 1000 );
+			output.println(test12);
+			//more than terrabyte, no SSD
+			Computer test22 = new Computer("Macbook", "Intel Core 5", 16,1500,false, 900 );
+			output.println(test22);
+			//less than terrabyte, SSD
+			Computer test32 = new Computer("Chromebook", "Intel Core 3", 16,999,true, 800 );
+			output.println(test32);
+			//less than terrabyte, no SSD
+			Computer test42 = new Computer("Dell", "Intel Pentium", 16,800,false, 700 );
+			output.println(test42);
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
