@@ -1,0 +1,70 @@
+
+TESTS FOR Computer.java:
+HP, Intel Core 7, 16GB Memory, 1.2TB Solid State Drive, Price: $1000.00 
+Macbook, Intel Core 5, 16GB Memory, 1.5TB Hard Drive, Price: $900.00 
+Chromebook, Intel Core 3, 16GB Memory, 999GB Solid State Drive, Price: $800.00 
+Dell, Intel Pentium, 16GB Memory, 800GB Hard Drive, Price: $700.00 
+
+TESTS FOR DateAndPlaceOfBirth.java:
+Date and place of birth: 2000-07-10, West Islip, NY, US
+Date and place of birth: 2000-07-10, Las Vegas, NV, US
+Date and place of birth: 2003-07-10, New Orleans, LA, US
+Date and place of birth: 2012-11-11, Paris, France
+Date and place of birth: 2010-10-10, London, United Kingdom
+false
+true
+true
+true
+false
+false
+false
+false
+true
+false
+false
+false
+true
+true
+false
+false
+
+TESTS FOR StreetUSAddress.java:
+123 Sesame Street
+456 Dream Lane
+Manhattan, NY 98765
+
+
+4400 Vestal Parkway E
+Binghamton, NY 13901
+
+TESTS FOR Person.java:
+Nick De Dios 123-45-6789,
+Date and place of birth: 2000-07-10, NYC, NY, USA
+123 Cayuga
+4400 Vestal Parkway
+Binghamton, NY 13901
+
+
+TESTS FOR ComputerOwner.java:
+Computer List, Owner: Nick De Dios 123-45-6789,
+Date and place of birth: 2000-07-10, West Islip, NY, US
+140 CS Lane
+Vestal Parkway
+Binghamton, NY 13902
+
+Computers: [HP, Intel Core 7, 16GB Memory, 1.2TB Solid State Drive, Price: $1000.00 , Macbook, Intel Core 5, 16GB Memory, 1.5TB Hard Drive, Price: $900.00 , Chromebook, Intel Core 3, 16GB Memory, 999GB Solid State Drive, Price: $800.00 , Dell, Intel Pentium, 16GB Memory, 800GB Hard Drive, Price: $700.00 ]
+
+
+Computer List, Owner: Nick De Dios 123-45-6789,
+Date and place of birth: 2000-07-10, West Islip, NY, US
+140 CS Lane
+Vestal Parkway
+Binghamton, NY 13902
+
+Computers: [HP, Intel Core 7, 16GB Memory, 1.2TB Solid State Drive, Price: $1000.00 , Chromebook, Intel Core 3, 16GB Memory, 999GB Solid State Drive, Price: $800.00 ]
+
+TESTS FOR SimpleDate.java:
+true
+true
+false
+false

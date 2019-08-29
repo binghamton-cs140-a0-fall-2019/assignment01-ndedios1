@@ -29,28 +29,42 @@ public class PlaceDOBTester {
       output.println(val42);
       output.println(val52);
 
-      output.println("\nTESTS FOR METHODS");
       //TEST 1: VAl 1
       System.out.println(val1.olderThan(val2));
       System.out.println(val1.olderThan(val3));
       System.out.println(val1.olderThan(val4));
       System.out.println(val1.olderThan(val5));
+      output.println(val1.olderThan(val2)); //false
+      output.println(val1.olderThan(val3)); //true
+      output.println(val1.olderThan(val4)); //true
+      output.println(val1.olderThan(val5)); //true
 
       System.out.println(val1.youngerThan(val2));
       System.out.println(val1.youngerThan(val3));
       System.out.println(val1.youngerThan(val4));
       System.out.println(val1.youngerThan(val5));
+      output.println(val1.youngerThan(val2)); //false
+      output.println(val1.youngerThan(val3)); //false
+      output.println(val1.youngerThan(val4)); //false
+      output.println(val1.youngerThan(val5)); //false
 
       System.out.println(val1.hasSameBirthDateAs(val2));
       System.out.println(val1.hasSameBirthDateAs(val3));
       System.out.println(val1.hasSameBirthDateAs(val4));
       System.out.println(val1.hasSameBirthDateAs(val5));
+      output.println(val1.hasSameBirthDateAs(val2)); //true
+      output.println(val1.hasSameBirthDateAs(val3)); //false
+      output.println(val1.hasSameBirthDateAs(val4)); //false
+      output.println(val1.hasSameBirthDateAs(val5)); //false
 
       System.out.println(val1.hasSameBirthDayAs(val2));
       System.out.println(val1.hasSameBirthDayAs(val3));
       System.out.println(val1.hasSameBirthDayAs(val4));
       System.out.println(val1.hasSameBirthDayAs(val5));
-
+      output.println(val1.hasSameBirthDayAs(val2)); //true
+      output.println(val1.hasSameBirthDayAs(val3)); //true
+      output.println(val1.hasSameBirthDayAs(val4)); //false
+      output.println(val1.hasSameBirthDayAs(val5)); //false
 		//Copy all your lines above, add an extra "2" to every variable name
 		// and replace every System.out.print or System.out.println
 		// by output.print or output.println

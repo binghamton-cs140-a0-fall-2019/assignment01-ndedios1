@@ -16,6 +16,7 @@ public class USAddressTester {
       StreetUSAddress home12 = new StreetUSAddress("123 Sesame Street", "456 Dream Lane", "Manhattan", "NY","98765");
       StreetUSAddress home22 = new StreetUSAddress("4400 Vestal Parkway E", "", "Binghamton", "NY", "13901");
       output.println(home12);
+      output.println("\n");
       output.println(home22);
 
       //Copy all your lines above, add an extra "2" to every variable name
